@@ -6,6 +6,8 @@ This repository contains the official implementation of **Inverse Flow (IF)**.
 
 Inverse generation problems, such as **denoising without ground truth observations**, pose significant challenges in scientific and real-world applications. While modern generative models (e.g., diffusion models, conditional flow matching, consistency models) have demonstrated remarkable results in conventional generation tasks, they cannot be directly applied to inverse generation problems where clean data is unavailable.  
 
+<img width="1043" alt="image" src="https://github.com/user-attachments/assets/084ffc61-8ddf-4976-b3db-a178a1ff651f" />
+
 **Inverse Flow (IF)** provides a framework to address this limitation by leveraging generative models for inverse generation. It supports nearly any **continuous noise distributions**, including correlated noise, and introduces two novel learning methods:  
 
 - **Inverse Flow Matching (IFM)**
